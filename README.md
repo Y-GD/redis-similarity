@@ -135,3 +135,5 @@ BGREWRITEAOF
 <img src="./img/aof_rewrite_condition.png" width="300">
 
 # Java-Client
+
+[redission for MROS](https://github.com/Y-GD/redis-modules-java)
