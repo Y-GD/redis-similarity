@@ -1,0 +1,60 @@
+194559:C 03 Aug 2023 16:25:01.509 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+194559:C 03 Aug 2023 16:25:01.509 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=194559, just started
+194559:C 03 Aug 2023 16:25:01.509 # Configuration loaded
+194559:M 03 Aug 2023 16:25:01.510 * monotonic clock: POSIX clock_gettime
+194559:M 03 Aug 2023 16:25:01.510 * No cluster configuration found, I'm af1115e2a51825d953245571a09948715d7fea2e
+194559:M 03 Aug 2023 16:25:01.512 * Running mode=cluster, port=7002.
+194559:M 03 Aug 2023 16:25:01.512 # Server initialized
+194559:M 03 Aug 2023 16:25:01.513 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+194559:M 03 Aug 2023 16:25:01.513 * Ready to accept connections
+194559:M 03 Aug 2023 16:29:21.780 # configEpoch set to 3 via CLUSTER SET-CONFIG-EPOCH
+194559:M 03 Aug 2023 16:29:26.719 # Cluster state changed: ok
+194559:M 03 Aug 2023 16:29:28.793 * Replica 192.168.10.131:7003 asks for synchronization
+194559:M 03 Aug 2023 16:29:28.793 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'd050c119cadcad62e1bcdaf64c5f05dcd17bacf1', my replication IDs are '474af2dc60e1c5df3c10f5fa6b3beade5b3af5cb' and '0000000000000000000000000000000000000000')
+194559:M 03 Aug 2023 16:29:28.793 * Replication backlog created, my new replication IDs are 'ae6d44d96c95feffce4e5020e8f4af4bb5ecc09a' and '0000000000000000000000000000000000000000'
+194559:M 03 Aug 2023 16:29:28.793 * Delay next BGSAVE for diskless SYNC
+194559:M 03 Aug 2023 16:29:33.368 * Starting BGSAVE for SYNC with target: replicas sockets
+194559:M 03 Aug 2023 16:29:33.368 * Background RDB transfer started by pid 194999
+194999:C 03 Aug 2023 16:29:33.369 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+194559:M 03 Aug 2023 16:29:33.369 # Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+194559:M 03 Aug 2023 16:29:33.370 * Background RDB transfer terminated with success
+194559:M 03 Aug 2023 16:29:33.370 * Streamed RDB transfer with replica 192.168.10.131:7003 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+194559:M 03 Aug 2023 16:29:33.370 * Synchronization with replica 192.168.10.131:7003 succeeded
+194559:M 03 Aug 2023 17:25:02.023 * 1 changes in 3600 seconds. Saving...
+194559:M 03 Aug 2023 17:25:02.023 * Background saving started by pid 196044
+196044:C 03 Aug 2023 17:25:02.026 * DB saved on disk
+196044:C 03 Aug 2023 17:25:02.026 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+194559:M 03 Aug 2023 17:25:02.123 * Background saving terminated with success
+194559:M 04 Aug 2023 21:30:59.991 * 1 changes in 3600 seconds. Saving...
+194559:M 04 Aug 2023 21:30:59.994 * Background saving started by pid 202620
+202620:C 04 Aug 2023 21:31:00.005 * DB saved on disk
+202620:C 04 Aug 2023 21:31:00.006 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+194559:M 04 Aug 2023 21:31:00.095 * Background saving terminated with success
+194559:M 04 Aug 2023 22:31:01.050 * 1 changes in 3600 seconds. Saving...
+194559:M 04 Aug 2023 22:31:01.051 * Background saving started by pid 203205
+203205:C 04 Aug 2023 22:31:01.054 * DB saved on disk
+203205:C 04 Aug 2023 22:31:01.054 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+194559:M 04 Aug 2023 22:31:01.152 * Background saving terminated with success
+194559:M 08 Aug 2023 16:08:39.153 # User requested shutdown...
+194559:M 08 Aug 2023 16:08:39.154 * 1 of 1 replicas are in sync when shutting down.
+194559:M 08 Aug 2023 16:08:39.154 * Saving the final RDB snapshot before exiting.
+194559:M 08 Aug 2023 16:08:39.160 * DB saved on disk
+194559:M 08 Aug 2023 16:08:39.160 * Removing the pid file.
+194559:M 08 Aug 2023 16:08:39.160 # Redis is now ready to exit, bye bye...
+34776:C 18 Aug 2023 17:08:17.607 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+34776:C 18 Aug 2023 17:08:17.613 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=34776, just started
+34776:C 18 Aug 2023 17:08:17.613 # Configuration loaded
+34776:M 18 Aug 2023 17:08:17.614 * monotonic clock: POSIX clock_gettime
+34776:M 18 Aug 2023 17:08:17.615 * Node configuration loaded, I'm af1115e2a51825d953245571a09948715d7fea2e
+34776:M 18 Aug 2023 17:08:17.615 * Running mode=cluster, port=7002.
+34776:M 18 Aug 2023 17:08:17.615 # Server initialized
+34776:M 18 Aug 2023 17:08:17.615 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+34776:M 18 Aug 2023 17:08:17.616 * Loading RDB produced by version 7.0.12
+34776:M 18 Aug 2023 17:08:17.616 * RDB age 867578 seconds
+34776:M 18 Aug 2023 17:08:17.616 * RDB memory usage when created 2.60 Mb
+34776:M 18 Aug 2023 17:08:17.616 * Done loading RDB, keys loaded: 4, keys expired: 0.
+34776:M 18 Aug 2023 17:08:17.616 * DB loaded from disk: 0.001 seconds
+34776:M 18 Aug 2023 17:08:17.616 * Ready to accept connections
+34776:M 18 Aug 2023 17:08:19.632 # Cluster state changed: ok
+34776:M 18 Aug 2023 17:08:20.142 * Replica 192.168.10.131:7003 asks for synchronization
+34776:M 18 Aug 2023 17:08:20.142 * Partial resynchronization request from 192.168.10.131:7003 accepted. Sending 0 bytes of backlog starting from offset 598688.

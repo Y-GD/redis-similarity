@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmros.a CMakeFiles/mros.dir/mros/mros.c.o CMakeFiles/mros.dir/murmur2/MurmurHash2.c.o
+/usr/bin/ranlib libmros.a

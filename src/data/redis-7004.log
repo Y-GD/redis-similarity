@@ -1,0 +1,127 @@
+194575:C 03 Aug 2023 16:25:06.360 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+194575:C 03 Aug 2023 16:25:06.360 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=194575, just started
+194575:C 03 Aug 2023 16:25:06.360 # Configuration loaded
+194575:M 03 Aug 2023 16:25:06.360 * monotonic clock: POSIX clock_gettime
+194575:M 03 Aug 2023 16:25:06.360 * No cluster configuration found, I'm d3e4bde112184e08c800fe4b00549a96b4f5797f
+194575:M 03 Aug 2023 16:25:06.361 * Running mode=cluster, port=7004.
+194575:M 03 Aug 2023 16:25:06.361 # Server initialized
+194575:M 03 Aug 2023 16:25:06.362 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+194575:M 03 Aug 2023 16:25:06.362 * Ready to accept connections
+194575:M 03 Aug 2023 16:29:21.781 # configEpoch set to 5 via CLUSTER SET-CONFIG-EPOCH
+194575:M 03 Aug 2023 16:29:26.921 # Cluster state changed: ok
+194575:S 03 Aug 2023 16:29:28.792 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+194575:S 03 Aug 2023 16:29:28.792 * Connecting to MASTER 192.168.10.131:7000
+194575:S 03 Aug 2023 16:29:28.792 * MASTER <-> REPLICA sync started
+194575:S 03 Aug 2023 16:29:28.792 * Non blocking connect for SYNC fired the event.
+194575:S 03 Aug 2023 16:29:28.792 * Master replied to PING, replication can continue...
+194575:S 03 Aug 2023 16:29:28.792 * Trying a partial resynchronization (request 23c8be44c8bf0371d5f547f7ca6b1bab5bc79b82:1).
+194575:S 03 Aug 2023 16:29:33.862 * Full resync from master: 964fe5f1ca004ed5867bc0d256cfea8b4faf1d79:0
+194575:S 03 Aug 2023 16:29:33.863 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+194575:S 03 Aug 2023 16:29:33.863 * Discarding previously cached master state.
+194575:S 03 Aug 2023 16:29:33.863 * MASTER <-> REPLICA sync: Flushing old data
+194575:S 03 Aug 2023 16:29:33.863 * MASTER <-> REPLICA sync: Loading DB in memory
+194575:S 03 Aug 2023 16:29:33.865 * Loading RDB produced by version 7.0.12
+194575:S 03 Aug 2023 16:29:33.865 * RDB age 0 seconds
+194575:S 03 Aug 2023 16:29:33.865 * RDB memory usage when created 1.78 Mb
+194575:S 03 Aug 2023 16:29:33.865 * Done loading RDB, keys loaded: 0, keys expired: 0.
+194575:S 03 Aug 2023 16:29:33.865 * MASTER <-> REPLICA sync: Finished with success
+194575:S 04 Aug 2023 21:31:43.911 * 1 changes in 3600 seconds. Saving...
+194575:S 04 Aug 2023 21:31:43.916 * Background saving started by pid 202776
+202776:C 04 Aug 2023 21:31:43.931 * DB saved on disk
+202776:C 04 Aug 2023 21:31:43.931 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+194575:S 04 Aug 2023 21:31:44.017 * Background saving terminated with success
+194575:S 04 Aug 2023 22:31:45.089 * 1 changes in 3600 seconds. Saving...
+194575:S 04 Aug 2023 22:31:45.090 * Background saving started by pid 203209
+203209:C 04 Aug 2023 22:31:45.098 * DB saved on disk
+203209:C 04 Aug 2023 22:31:45.098 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+194575:S 04 Aug 2023 22:31:45.190 * Background saving terminated with success
+194575:S 08 Aug 2023 16:08:27.059 # Connection with master lost.
+194575:S 08 Aug 2023 16:08:27.060 * Caching the disconnected master state.
+194575:S 08 Aug 2023 16:08:27.061 * Reconnecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:27.061 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:27.061 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:27.997 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:27.997 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:27.997 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:29.002 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:29.002 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:29.002 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:30.008 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:30.008 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:30.009 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:31.015 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:31.015 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:31.015 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:32.021 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:32.021 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:32.021 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:33.029 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:33.029 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:33.029 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:34.035 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:34.035 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:34.035 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:35.043 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:35.043 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:35.043 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:36.049 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:36.049 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:36.049 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:37.056 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:37.056 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:37.056 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:38.061 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:38.062 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:38.062 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:39.069 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:39.069 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:39.070 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:40.077 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:40.077 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:40.077 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:41.082 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:41.082 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:41.082 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:42.088 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:42.088 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:42.088 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:43.096 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:43.097 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:43.097 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:44.104 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:44.104 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:44.104 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:45.111 * Connecting to MASTER 192.168.10.131:7000
+194575:S 08 Aug 2023 16:08:45.111 * MASTER <-> REPLICA sync started
+194575:S 08 Aug 2023 16:08:45.111 # Error condition on socket for SYNC: Connection refused
+194575:S 08 Aug 2023 16:08:45.180 # User requested shutdown...
+194575:S 08 Aug 2023 16:08:45.180 * Saving the final RDB snapshot before exiting.
+194575:S 08 Aug 2023 16:08:45.185 * DB saved on disk
+194575:S 08 Aug 2023 16:08:45.185 * Removing the pid file.
+194575:S 08 Aug 2023 16:08:45.185 # Redis is now ready to exit, bye bye...
+34792:C 18 Aug 2023 17:08:22.866 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+34792:C 18 Aug 2023 17:08:22.871 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=34792, just started
+34792:C 18 Aug 2023 17:08:22.871 # Configuration loaded
+34792:M 18 Aug 2023 17:08:22.872 * monotonic clock: POSIX clock_gettime
+34792:M 18 Aug 2023 17:08:22.872 * Node configuration loaded, I'm d3e4bde112184e08c800fe4b00549a96b4f5797f
+34792:M 18 Aug 2023 17:08:22.873 * Running mode=cluster, port=7004.
+34792:M 18 Aug 2023 17:08:22.873 # Server initialized
+34792:M 18 Aug 2023 17:08:22.873 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+34792:M 18 Aug 2023 17:08:22.874 * Loading RDB produced by version 7.0.12
+34792:M 18 Aug 2023 17:08:22.874 * RDB age 867577 seconds
+34792:M 18 Aug 2023 17:08:22.874 * RDB memory usage when created 2.45 Mb
+34792:M 18 Aug 2023 17:08:22.874 * Done loading RDB, keys loaded: 2, keys expired: 0.
+34792:M 18 Aug 2023 17:08:22.874 * DB loaded from disk: 0.000 seconds
+34792:M 18 Aug 2023 17:08:22.874 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+34792:M 18 Aug 2023 17:08:22.874 * Ready to accept connections
+34792:S 18 Aug 2023 17:08:22.874 * Discarding previously cached master state.
+34792:S 18 Aug 2023 17:08:22.874 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+34792:S 18 Aug 2023 17:08:22.874 * Connecting to MASTER 192.168.10.131:7000
+34792:S 18 Aug 2023 17:08:22.875 * MASTER <-> REPLICA sync started
+34792:S 18 Aug 2023 17:08:22.875 # Cluster state changed: ok
+34792:S 18 Aug 2023 17:08:22.876 * Non blocking connect for SYNC fired the event.
+34792:S 18 Aug 2023 17:08:22.876 * Master replied to PING, replication can continue...
+34792:S 18 Aug 2023 17:08:22.876 * Trying a partial resynchronization (request 964fe5f1ca004ed5867bc0d256cfea8b4faf1d79:598582).
+34792:S 18 Aug 2023 17:08:22.877 * Successful partial resynchronization with master.
+34792:S 18 Aug 2023 17:08:22.877 # Master replication ID changed to 7520433c55211cc2a29096da2ebe60dfcb850d0f
+34792:S 18 Aug 2023 17:08:22.877 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.

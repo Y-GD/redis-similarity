@@ -1,0 +1,4 @@
+/home/swyang/Redis/redis-similarity/src/build/CMakeFiles/mros.dir
+/home/swyang/Redis/redis-similarity/src/build/CMakeFiles/redis-similarity.dir
+/home/swyang/Redis/redis-similarity/src/build/CMakeFiles/edit_cache.dir
+/home/swyang/Redis/redis-similarity/src/build/CMakeFiles/rebuild_cache.dir

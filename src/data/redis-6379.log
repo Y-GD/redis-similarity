@@ -1,0 +1,637 @@
+148698:C 31 Jul 2023 21:11:57.059 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+148698:C 31 Jul 2023 21:11:57.059 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=148698, just started
+148698:C 31 Jul 2023 21:11:57.059 # Configuration loaded
+148698:M 31 Jul 2023 21:11:57.059 * monotonic clock: POSIX clock_gettime
+148698:M 31 Jul 2023 21:11:57.060 * Running mode=standalone, port=6379.
+148698:M 31 Jul 2023 21:11:57.060 # Server initialized
+148698:M 31 Jul 2023 21:11:57.060 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+148698:M 31 Jul 2023 21:11:57.060 * Ready to accept connections
+148698:M 31 Jul 2023 21:12:59.533 * 3 changes in 60 seconds. Saving...
+148698:M 31 Jul 2023 21:12:59.533 * Background saving started by pid 148877
+148877:C 31 Jul 2023 21:12:59.535 * DB saved on disk
+148877:C 31 Jul 2023 21:12:59.535 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+148698:M 31 Jul 2023 21:12:59.634 * Background saving terminated with success
+148698:M 31 Jul 2023 21:13:17.383 * DB saved on disk
+149159:C 31 Jul 2023 21:14:37.127 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+149159:C 31 Jul 2023 21:14:37.127 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=149159, just started
+149159:C 31 Jul 2023 21:14:37.127 # Configuration loaded
+149159:M 31 Jul 2023 21:14:37.127 * monotonic clock: POSIX clock_gettime
+149159:M 31 Jul 2023 21:14:37.128 * Running mode=standalone, port=6379.
+149159:M 31 Jul 2023 21:14:37.128 # Server initialized
+149159:M 31 Jul 2023 21:14:37.128 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+149159:M 31 Jul 2023 21:14:37.128 * Loading RDB produced by version 7.0.12
+149159:M 31 Jul 2023 21:14:37.128 * RDB age 80 seconds
+149159:M 31 Jul 2023 21:14:37.128 * RDB memory usage when created 0.91 Mb
+149159:M 31 Jul 2023 21:14:37.128 * Done loading RDB, keys loaded: 0, keys expired: 0.
+149159:M 31 Jul 2023 21:14:37.128 * DB loaded from disk: 0.000 seconds
+149159:M 31 Jul 2023 21:14:37.128 * Ready to accept connections
+149159:M 31 Jul 2023 21:15:38.094 * 3 changes in 60 seconds. Saving...
+149159:M 31 Jul 2023 21:15:38.094 * Background saving started by pid 149324
+149324:C 31 Jul 2023 21:15:38.096 * DB saved on disk
+149324:C 31 Jul 2023 21:15:38.096 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+149159:M 31 Jul 2023 21:15:38.196 * Background saving terminated with success
+149407:C 31 Jul 2023 21:16:19.597 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+149407:C 31 Jul 2023 21:16:19.597 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=149407, just started
+149407:C 31 Jul 2023 21:16:19.597 # Configuration loaded
+149407:M 31 Jul 2023 21:16:19.597 * monotonic clock: POSIX clock_gettime
+149407:M 31 Jul 2023 21:16:19.597 * Running mode=standalone, port=6379.
+149407:M 31 Jul 2023 21:16:19.597 # Server initialized
+149407:M 31 Jul 2023 21:16:19.598 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+149407:M 31 Jul 2023 21:16:19.598 * Loading RDB produced by version 7.0.12
+149407:M 31 Jul 2023 21:16:19.598 * RDB age 41 seconds
+149407:M 31 Jul 2023 21:16:19.598 * RDB memory usage when created 1.06 Mb
+149407:M 31 Jul 2023 21:16:19.598 * Done loading RDB, keys loaded: 3, keys expired: 0.
+149407:M 31 Jul 2023 21:16:19.598 * DB loaded from disk: 0.000 seconds
+149407:M 31 Jul 2023 21:16:19.598 * Ready to accept connections
+149572:C 31 Jul 2023 21:17:17.636 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+149572:C 31 Jul 2023 21:17:17.636 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=149572, just started
+149572:C 31 Jul 2023 21:17:17.636 # Configuration loaded
+149572:M 31 Jul 2023 21:17:17.636 * monotonic clock: POSIX clock_gettime
+149572:M 31 Jul 2023 21:17:17.637 * Running mode=standalone, port=6379.
+149572:M 31 Jul 2023 21:17:17.637 # Server initialized
+149572:M 31 Jul 2023 21:17:17.637 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+149572:M 31 Jul 2023 21:17:17.637 * Loading RDB produced by version 7.0.12
+149572:M 31 Jul 2023 21:17:17.637 * RDB age 99 seconds
+149572:M 31 Jul 2023 21:17:17.637 * RDB memory usage when created 1.06 Mb
+149572:M 31 Jul 2023 21:17:17.638 * Done loading RDB, keys loaded: 3, keys expired: 0.
+149572:M 31 Jul 2023 21:17:17.638 * DB loaded from disk: 0.001 seconds
+149572:M 31 Jul 2023 21:17:17.638 * Ready to accept connections
+149572:M 31 Jul 2023 22:02:48.435 # User requested shutdown...
+149572:M 31 Jul 2023 22:02:48.435 * Saving the final RDB snapshot before exiting.
+149572:M 31 Jul 2023 22:02:48.442 * DB saved on disk
+149572:M 31 Jul 2023 22:02:48.442 * Removing the pid file.
+149572:M 31 Jul 2023 22:02:48.442 # Redis is now ready to exit, bye bye...
+150094:C 31 Jul 2023 22:03:59.334 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+150094:C 31 Jul 2023 22:03:59.334 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=150094, just started
+150094:C 31 Jul 2023 22:03:59.334 # Configuration loaded
+150094:M 31 Jul 2023 22:03:59.334 * monotonic clock: POSIX clock_gettime
+150094:M 31 Jul 2023 22:03:59.335 * Running mode=standalone, port=6379.
+150094:M 31 Jul 2023 22:03:59.335 # Server initialized
+150094:M 31 Jul 2023 22:03:59.335 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+150094:M 31 Jul 2023 22:03:59.337 * Creating AOF base file appendonly-6379.aof.1.base.rdb on server start
+150094:M 31 Jul 2023 22:03:59.338 * Creating AOF incr file appendonly-6379.aof.1.incr.aof on server start
+150094:M 31 Jul 2023 22:03:59.338 * Ready to accept connections
+150094:M 31 Jul 2023 22:10:04.098 * Creating AOF incr file appendonly-6379.aof.2.incr.aof on background rewrite
+150094:M 31 Jul 2023 22:10:04.099 * Background append only file rewriting started by pid 150519
+150519:C 31 Jul 2023 22:10:04.101 * Successfully created the temporary AOF base file temp-rewriteaof-bg-150519.aof
+150519:C 31 Jul 2023 22:10:04.101 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+150094:M 31 Jul 2023 22:10:04.122 * Background AOF rewrite terminated with success
+150094:M 31 Jul 2023 22:10:04.123 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-150519.aof into appendonly-6379.aof.2.base.rdb
+150094:M 31 Jul 2023 22:10:04.124 * Removing the history file appendonly-6379.aof.1.incr.aof in the background
+150094:M 31 Jul 2023 22:10:04.124 * Removing the history file appendonly-6379.aof.1.base.rdb in the background
+150094:M 31 Jul 2023 22:10:04.125 * Background AOF rewrite finished successfully
+150094:M 31 Jul 2023 22:11:09.833 * 3 changes in 60 seconds. Saving...
+150094:M 31 Jul 2023 22:11:09.834 * Background saving started by pid 150614
+150614:C 31 Jul 2023 22:11:09.836 * DB saved on disk
+150614:C 31 Jul 2023 22:11:09.836 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+150094:M 31 Jul 2023 22:11:09.934 * Background saving terminated with success
+150094:M 31 Jul 2023 22:11:26.713 * Creating AOF incr file appendonly-6379.aof.3.incr.aof on background rewrite
+150094:M 31 Jul 2023 22:11:26.713 * Background append only file rewriting started by pid 150710
+150710:C 31 Jul 2023 22:11:26.715 * Successfully created the temporary AOF base file temp-rewriteaof-bg-150710.aof
+150710:C 31 Jul 2023 22:11:26.715 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+150094:M 31 Jul 2023 22:11:26.758 * Background AOF rewrite terminated with success
+150094:M 31 Jul 2023 22:11:26.758 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-150710.aof into appendonly-6379.aof.3.base.rdb
+150094:M 31 Jul 2023 22:11:26.759 * Removing the history file appendonly-6379.aof.2.incr.aof in the background
+150094:M 31 Jul 2023 22:11:26.759 * Removing the history file appendonly-6379.aof.2.base.rdb in the background
+150094:M 31 Jul 2023 22:11:26.760 * Background AOF rewrite finished successfully
+150094:M 31 Jul 2023 22:11:47.524 # User requested shutdown...
+150094:M 31 Jul 2023 22:11:47.524 * Calling fsync() on the AOF file.
+150094:M 31 Jul 2023 22:11:47.524 * Saving the final RDB snapshot before exiting.
+150094:M 31 Jul 2023 22:11:47.532 * DB saved on disk
+150094:M 31 Jul 2023 22:11:47.532 * Removing the pid file.
+150094:M 31 Jul 2023 22:11:47.532 # Redis is now ready to exit, bye bye...
+150776:C 31 Jul 2023 22:11:52.737 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+150776:C 31 Jul 2023 22:11:52.737 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=150776, just started
+150776:C 31 Jul 2023 22:11:52.737 # Configuration loaded
+150776:M 31 Jul 2023 22:11:52.737 * monotonic clock: POSIX clock_gettime
+150776:M 31 Jul 2023 22:11:52.737 * Running mode=standalone, port=6379.
+150776:M 31 Jul 2023 22:11:52.738 # Server initialized
+150776:M 31 Jul 2023 22:11:52.738 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+150776:M 31 Jul 2023 22:11:52.738 * Reading RDB base file on AOF loading...
+150776:M 31 Jul 2023 22:11:52.738 * Loading RDB produced by version 7.0.12
+150776:M 31 Jul 2023 22:11:52.738 * RDB age 26 seconds
+150776:M 31 Jul 2023 22:11:52.738 * RDB memory usage when created 1.15 Mb
+150776:M 31 Jul 2023 22:11:52.738 * RDB is base AOF
+150776:M 31 Jul 2023 22:11:52.738 * Done loading RDB, keys loaded: 3, keys expired: 0.
+150776:M 31 Jul 2023 22:11:52.738 * DB loaded from base file appendonly-6379.aof.3.base.rdb: 0.000 seconds
+150776:M 31 Jul 2023 22:11:52.738 * DB loaded from append only file: 0.000 seconds
+150776:M 31 Jul 2023 22:11:52.738 * Opening AOF incr file appendonly-6379.aof.3.incr.aof on server start
+150776:M 31 Jul 2023 22:11:52.738 * Ready to accept connections
+150776:M 31 Jul 2023 22:13:43.106 # User requested shutdown...
+150776:M 31 Jul 2023 22:13:43.106 * Calling fsync() on the AOF file.
+150776:M 31 Jul 2023 22:13:43.106 * Saving the final RDB snapshot before exiting.
+150776:M 31 Jul 2023 22:13:43.108 * DB saved on disk
+150776:M 31 Jul 2023 22:13:43.108 * Removing the pid file.
+150776:M 31 Jul 2023 22:13:43.108 # Redis is now ready to exit, bye bye...
+151057:C 31 Jul 2023 22:14:20.628 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+151057:C 31 Jul 2023 22:14:20.628 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=151057, just started
+151057:C 31 Jul 2023 22:14:20.628 # Configuration loaded
+151057:M 31 Jul 2023 22:14:20.628 * monotonic clock: POSIX clock_gettime
+151057:M 31 Jul 2023 22:14:20.629 * Running mode=standalone, port=6379.
+151057:M 31 Jul 2023 22:14:20.629 # Server initialized
+151057:M 31 Jul 2023 22:14:20.629 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+151057:M 31 Jul 2023 22:14:20.629 * Loading RDB produced by version 7.0.12
+151057:M 31 Jul 2023 22:14:20.629 * RDB age 37 seconds
+151057:M 31 Jul 2023 22:14:20.629 * RDB memory usage when created 1.10 Mb
+151057:M 31 Jul 2023 22:14:20.629 * Done loading RDB, keys loaded: 3, keys expired: 0.
+151057:M 31 Jul 2023 22:14:20.629 * DB loaded from disk: 0.000 seconds
+151057:M 31 Jul 2023 22:14:20.629 * Ready to accept connections
+151057:M 31 Jul 2023 22:15:24.621 * Background append only file rewriting started by pid 151203
+151203:C 31 Jul 2023 22:15:24.623 * Successfully created the temporary AOF base file temp-rewriteaof-bg-151203.aof
+151203:C 31 Jul 2023 22:15:24.623 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+151057:M 31 Jul 2023 22:15:24.718 * Background AOF rewrite terminated with success
+151057:M 31 Jul 2023 22:15:24.718 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-151203.aof into appendonly-6379.aof.4.base.rdb
+151057:M 31 Jul 2023 22:15:24.719 * Removing the history file appendonly-6379.aof.3.incr.aof in the background
+151057:M 31 Jul 2023 22:15:24.720 * Removing the history file appendonly-6379.aof.3.base.rdb in the background
+151057:M 31 Jul 2023 22:15:24.721 * Background AOF rewrite finished successfully
+151057:M 31 Jul 2023 22:15:40.893 # User requested shutdown...
+151057:M 31 Jul 2023 22:15:40.893 * Saving the final RDB snapshot before exiting.
+151057:M 31 Jul 2023 22:15:40.894 * DB saved on disk
+151057:M 31 Jul 2023 22:15:40.894 * Removing the pid file.
+151057:M 31 Jul 2023 22:15:40.894 # Redis is now ready to exit, bye bye...
+151286:C 31 Jul 2023 22:15:55.156 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+151286:C 31 Jul 2023 22:15:55.156 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=151286, just started
+151286:C 31 Jul 2023 22:15:55.156 # Configuration loaded
+151286:M 31 Jul 2023 22:15:55.157 * monotonic clock: POSIX clock_gettime
+151286:M 31 Jul 2023 22:15:55.157 * Running mode=standalone, port=6379.
+151286:M 31 Jul 2023 22:15:55.157 # Server initialized
+151286:M 31 Jul 2023 22:15:55.157 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+151286:M 31 Jul 2023 22:15:55.158 * Reading RDB base file on AOF loading...
+151286:M 31 Jul 2023 22:15:55.158 * Loading RDB produced by version 7.0.12
+151286:M 31 Jul 2023 22:15:55.158 * RDB age 31 seconds
+151286:M 31 Jul 2023 22:15:55.158 * RDB memory usage when created 1.12 Mb
+151286:M 31 Jul 2023 22:15:55.158 * RDB is base AOF
+151286:M 31 Jul 2023 22:15:55.158 * Done loading RDB, keys loaded: 4, keys expired: 0.
+151286:M 31 Jul 2023 22:15:55.158 * DB loaded from base file appendonly-6379.aof.4.base.rdb: 0.000 seconds
+151286:M 31 Jul 2023 22:15:55.158 * DB loaded from append only file: 0.000 seconds
+151286:M 31 Jul 2023 22:15:55.165 * Creating AOF incr file appendonly-6379.aof.1.incr.aof on server start
+151286:M 31 Jul 2023 22:15:55.165 * Ready to accept connections
+151286:M 31 Jul 2023 22:22:08.844 # User requested shutdown...
+151286:M 31 Jul 2023 22:22:08.844 * Calling fsync() on the AOF file.
+151286:M 31 Jul 2023 22:22:08.844 * Saving the final RDB snapshot before exiting.
+151286:M 31 Jul 2023 22:22:08.846 * DB saved on disk
+151286:M 31 Jul 2023 22:22:08.846 * Removing the pid file.
+151286:M 31 Jul 2023 22:22:08.846 # Redis is now ready to exit, bye bye...
+151440:C 31 Jul 2023 22:22:12.257 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+151440:C 31 Jul 2023 22:22:12.257 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=151440, just started
+151440:C 31 Jul 2023 22:22:12.257 # Configuration loaded
+151440:M 31 Jul 2023 22:22:12.257 * monotonic clock: POSIX clock_gettime
+151440:M 31 Jul 2023 22:22:12.257 * Running mode=standalone, port=6379.
+151440:M 31 Jul 2023 22:22:12.257 # Server initialized
+151440:M 31 Jul 2023 22:22:12.258 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+151440:M 31 Jul 2023 22:22:12.258 * Reading RDB base file on AOF loading...
+151440:M 31 Jul 2023 22:22:12.258 * Loading RDB produced by version 7.0.12
+151440:M 31 Jul 2023 22:22:12.258 * RDB age 408 seconds
+151440:M 31 Jul 2023 22:22:12.258 * RDB memory usage when created 1.12 Mb
+151440:M 31 Jul 2023 22:22:12.258 * RDB is base AOF
+151440:M 31 Jul 2023 22:22:12.258 * Done loading RDB, keys loaded: 4, keys expired: 0.
+151440:M 31 Jul 2023 22:22:12.258 * DB loaded from base file appendonly-6379.aof.4.base.rdb: 0.001 seconds
+151440:M 31 Jul 2023 22:22:12.258 * DB loaded from append only file: 0.001 seconds
+151440:M 31 Jul 2023 22:22:12.258 * Opening AOF incr file appendonly-6379.aof.1.incr.aof on server start
+151440:M 31 Jul 2023 22:22:12.258 * Ready to accept connections
+151440:M 31 Jul 2023 22:22:48.932 * Creating AOF incr file appendonly-6379.aof.2.incr.aof on background rewrite
+151440:M 31 Jul 2023 22:22:48.932 * Background append only file rewriting started by pid 151599
+151599:C 31 Jul 2023 22:22:48.934 * Successfully created the temporary AOF base file temp-rewriteaof-bg-151599.aof
+151599:C 31 Jul 2023 22:22:48.934 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+151440:M 31 Jul 2023 22:22:49.031 * Background AOF rewrite terminated with success
+151440:M 31 Jul 2023 22:22:49.031 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-151599.aof into appendonly-6379.aof.5.base.rdb
+151440:M 31 Jul 2023 22:22:49.032 * Removing the history file appendonly-6379.aof.1.incr.aof in the background
+151440:M 31 Jul 2023 22:22:49.032 * Removing the history file appendonly-6379.aof.4.base.rdb in the background
+151440:M 31 Jul 2023 22:22:49.033 * Background AOF rewrite finished successfully
+151440:M 31 Jul 2023 22:23:13.010 * 3 changes in 60 seconds. Saving...
+151440:M 31 Jul 2023 22:23:13.011 * Background saving started by pid 151702
+151702:C 31 Jul 2023 22:23:13.013 * DB saved on disk
+151702:C 31 Jul 2023 22:23:13.013 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 31 Jul 2023 22:23:13.111 * Background saving terminated with success
+151440:M 31 Jul 2023 22:23:32.380 * Creating AOF incr file appendonly-6379.aof.3.incr.aof on background rewrite
+151440:M 31 Jul 2023 22:23:32.381 * Background append only file rewriting started by pid 151758
+151758:C 31 Jul 2023 22:23:32.382 * Successfully created the temporary AOF base file temp-rewriteaof-bg-151758.aof
+151758:C 31 Jul 2023 22:23:32.383 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+151440:M 31 Jul 2023 22:23:32.464 * Background AOF rewrite terminated with success
+151440:M 31 Jul 2023 22:23:32.464 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-151758.aof into appendonly-6379.aof.6.base.rdb
+151440:M 31 Jul 2023 22:23:32.466 * Removing the history file appendonly-6379.aof.2.incr.aof in the background
+151440:M 31 Jul 2023 22:23:32.466 * Removing the history file appendonly-6379.aof.5.base.rdb in the background
+151440:M 31 Jul 2023 22:23:32.467 * Background AOF rewrite finished successfully
+151440:M 31 Jul 2023 22:24:14.074 * 3 changes in 60 seconds. Saving...
+151440:M 31 Jul 2023 22:24:14.075 * Background saving started by pid 151799
+151799:C 31 Jul 2023 22:24:14.078 * DB saved on disk
+151799:C 31 Jul 2023 22:24:14.078 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 31 Jul 2023 22:24:14.176 * Background saving terminated with success
+151440:M 31 Jul 2023 22:25:18.054 * 3 changes in 60 seconds. Saving...
+151440:M 31 Jul 2023 22:25:18.055 * Background saving started by pid 152071
+152071:C 31 Jul 2023 22:25:18.056 * DB saved on disk
+152071:C 31 Jul 2023 22:25:18.057 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 31 Jul 2023 22:25:18.155 * Background saving terminated with success
+151440:M 31 Jul 2023 22:25:41.145 * Creating AOF incr file appendonly-6379.aof.4.incr.aof on background rewrite
+151440:M 31 Jul 2023 22:25:41.145 * Background append only file rewriting started by pid 152134
+152134:C 31 Jul 2023 22:25:41.147 * Successfully created the temporary AOF base file temp-rewriteaof-bg-152134.aof
+152134:C 31 Jul 2023 22:25:41.147 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+151440:M 31 Jul 2023 22:25:41.232 * Background AOF rewrite terminated with success
+151440:M 31 Jul 2023 22:25:41.232 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-152134.aof into appendonly-6379.aof.7.base.rdb
+151440:M 31 Jul 2023 22:25:41.233 * Removing the history file appendonly-6379.aof.3.incr.aof in the background
+151440:M 31 Jul 2023 22:25:41.233 * Removing the history file appendonly-6379.aof.6.base.rdb in the background
+151440:M 31 Jul 2023 22:25:41.234 * Background AOF rewrite finished successfully
+152164:C 31 Jul 2023 22:25:50.551 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+152164:C 31 Jul 2023 22:25:50.551 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=152164, just started
+152164:C 31 Jul 2023 22:25:50.551 # Configuration loaded
+152164:M 31 Jul 2023 22:25:50.552 * monotonic clock: POSIX clock_gettime
+152164:M 31 Jul 2023 22:25:50.552 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+152164:M 31 Jul 2023 22:25:50.552 # Failed listening on port 6379 (TCP), aborting.
+151440:M 01 Aug 2023 16:11:42.563 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 16:11:42.566 * Background saving started by pid 155507
+155507:C 01 Aug 2023 16:11:42.580 * DB saved on disk
+155507:C 01 Aug 2023 16:11:42.580 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 16:11:42.666 * Background saving terminated with success
+151440:M 01 Aug 2023 16:17:21.319 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 16:17:21.320 * Background saving started by pid 155635
+155635:C 01 Aug 2023 16:17:21.328 * DB saved on disk
+155635:C 01 Aug 2023 16:17:21.329 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 16:17:21.421 * Background saving terminated with success
+151440:M 01 Aug 2023 16:20:43.665 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 16:20:43.665 * Background saving started by pid 155804
+155804:C 01 Aug 2023 16:20:43.674 * DB saved on disk
+155804:C 01 Aug 2023 16:20:43.674 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 16:20:43.766 * Background saving terminated with success
+151440:M 01 Aug 2023 16:29:43.260 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 16:29:43.260 * Background saving started by pid 156207
+156207:C 01 Aug 2023 16:29:43.268 * DB saved on disk
+156207:C 01 Aug 2023 16:29:43.269 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 16:29:43.361 * Background saving terminated with success
+151440:M 01 Aug 2023 16:32:50.747 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 16:32:50.747 * Background saving started by pid 156470
+156470:C 01 Aug 2023 16:32:50.750 * DB saved on disk
+156470:C 01 Aug 2023 16:32:50.750 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 16:32:50.848 * Background saving terminated with success
+151440:M 01 Aug 2023 16:42:46.678 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 16:42:46.678 * Background saving started by pid 156688
+156688:C 01 Aug 2023 16:42:46.680 * DB saved on disk
+156688:C 01 Aug 2023 16:42:46.680 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 16:42:46.779 * Background saving terminated with success
+151440:M 01 Aug 2023 16:50:30.874 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 16:50:30.874 * Background saving started by pid 157085
+157085:C 01 Aug 2023 16:50:30.877 * DB saved on disk
+157085:C 01 Aug 2023 16:50:30.877 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 16:50:30.975 * Background saving terminated with success
+151440:M 01 Aug 2023 17:28:06.428 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 17:28:06.428 * Background saving started by pid 157550
+157550:C 01 Aug 2023 17:28:06.432 * DB saved on disk
+157550:C 01 Aug 2023 17:28:06.433 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 17:28:06.529 * Background saving terminated with success
+151440:M 01 Aug 2023 20:29:42.029 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 20:29:42.029 * Background saving started by pid 158037
+158037:C 01 Aug 2023 20:29:42.033 * DB saved on disk
+158037:C 01 Aug 2023 20:29:42.033 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 20:29:42.130 * Background saving terminated with success
+151440:M 01 Aug 2023 20:31:06.258 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 20:31:06.258 * Background saving started by pid 158178
+158178:C 01 Aug 2023 20:31:06.261 * DB saved on disk
+158178:C 01 Aug 2023 20:31:06.261 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 20:31:06.359 * Background saving terminated with success
+151440:M 01 Aug 2023 21:35:38.924 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 21:35:38.924 * Background saving started by pid 160100
+160100:C 01 Aug 2023 21:35:38.928 * DB saved on disk
+160100:C 01 Aug 2023 21:35:38.928 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 21:35:39.025 * Background saving terminated with success
+151440:M 01 Aug 2023 21:46:46.121 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 21:46:46.121 * Background saving started by pid 160699
+160699:C 01 Aug 2023 21:46:46.123 * DB saved on disk
+160699:C 01 Aug 2023 21:46:46.123 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 21:46:46.222 * Background saving terminated with success
+151440:M 01 Aug 2023 21:47:47.010 * 3 changes in 60 seconds. Saving...
+151440:M 01 Aug 2023 21:47:47.010 * Background saving started by pid 160820
+160820:C 01 Aug 2023 21:47:47.019 * DB saved on disk
+160820:C 01 Aug 2023 21:47:47.019 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 01 Aug 2023 21:47:47.111 * Background saving terminated with success
+151440:M 02 Aug 2023 11:09:30.107 * Replica 127.0.0.1:6380 asks for synchronization
+151440:M 02 Aug 2023 11:09:30.107 * Full resync requested by replica 127.0.0.1:6380
+151440:M 02 Aug 2023 11:09:30.107 * Replication backlog created, my new replication IDs are 'c2d4ad70df31e4da35513e181c276162d0c2bdde' and '0000000000000000000000000000000000000000'
+151440:M 02 Aug 2023 11:09:30.107 * Delay next BGSAVE for diskless SYNC
+151440:M 02 Aug 2023 11:09:35.215 * Starting BGSAVE for SYNC with target: replicas sockets
+151440:M 02 Aug 2023 11:09:35.223 * Background RDB transfer started by pid 163808
+163808:C 02 Aug 2023 11:09:35.237 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 02 Aug 2023 11:09:35.238 # Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+151440:M 02 Aug 2023 11:09:35.242 * Background RDB transfer terminated with success
+151440:M 02 Aug 2023 11:09:35.242 * Streamed RDB transfer with replica 127.0.0.1:6380 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+151440:M 02 Aug 2023 11:09:35.242 * Synchronization with replica 127.0.0.1:6380 succeeded
+151440:M 02 Aug 2023 11:12:46.574 # Connection with replica 127.0.0.1:6380 lost.
+151440:M 02 Aug 2023 11:13:32.385 * Replica 127.0.0.1:6380 asks for synchronization
+151440:M 02 Aug 2023 11:13:32.385 * Full resync requested by replica 127.0.0.1:6380
+151440:M 02 Aug 2023 11:13:32.385 * Delay next BGSAVE for diskless SYNC
+151440:M 02 Aug 2023 11:13:37.038 * Starting BGSAVE for SYNC with target: replicas sockets
+151440:M 02 Aug 2023 11:13:37.038 * Background RDB transfer started by pid 164436
+164436:C 02 Aug 2023 11:13:37.040 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+151440:M 02 Aug 2023 11:13:37.040 # Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+151440:M 02 Aug 2023 11:13:37.043 * Background RDB transfer terminated with success
+151440:M 02 Aug 2023 11:13:37.044 * Streamed RDB transfer with replica 127.0.0.1:6380 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+151440:M 02 Aug 2023 11:13:37.044 * Synchronization with replica 127.0.0.1:6380 succeeded
+151440:M 02 Aug 2023 15:25:50.700 # User requested shutdown...
+151440:M 02 Aug 2023 15:25:50.700 * 1 of 1 replicas are in sync when shutting down.
+151440:M 02 Aug 2023 15:25:50.700 * Calling fsync() on the AOF file.
+151440:M 02 Aug 2023 15:25:50.700 * Saving the final RDB snapshot before exiting.
+151440:M 02 Aug 2023 15:25:50.710 * DB saved on disk
+151440:M 02 Aug 2023 15:25:50.710 * Removing the pid file.
+151440:M 02 Aug 2023 15:25:50.710 # Redis is now ready to exit, bye bye...
+166517:C 02 Aug 2023 15:28:14.424 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+166517:C 02 Aug 2023 15:28:14.424 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=166517, just started
+166517:C 02 Aug 2023 15:28:14.424 # Configuration loaded
+166517:M 02 Aug 2023 15:28:14.425 * monotonic clock: POSIX clock_gettime
+166517:M 02 Aug 2023 15:28:14.425 * Running mode=standalone, port=6379.
+166517:M 02 Aug 2023 15:28:14.425 # Server initialized
+166517:M 02 Aug 2023 15:28:14.425 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+166517:M 02 Aug 2023 15:28:14.432 * Reading RDB base file on AOF loading...
+166517:M 02 Aug 2023 15:28:14.432 * Loading RDB produced by version 7.0.12
+166517:M 02 Aug 2023 15:28:14.432 * RDB age 147753 seconds
+166517:M 02 Aug 2023 15:28:14.432 * RDB memory usage when created 1.26 Mb
+166517:M 02 Aug 2023 15:28:14.432 * RDB is base AOF
+166517:M 02 Aug 2023 15:28:14.432 * Done loading RDB, keys loaded: 6, keys expired: 0.
+166517:M 02 Aug 2023 15:28:14.432 * DB loaded from base file appendonly-6379.aof.7.base.rdb: 0.001 seconds
+166517:M 02 Aug 2023 15:28:14.436 * DB loaded from incr file appendonly-6379.aof.4.incr.aof: 0.003 seconds
+166517:M 02 Aug 2023 15:28:14.436 * DB loaded from append only file: 0.005 seconds
+166517:M 02 Aug 2023 15:28:14.436 * Opening AOF incr file appendonly-6379.aof.4.incr.aof on server start
+166517:M 02 Aug 2023 15:28:14.436 * Ready to accept connections
+166517:S 02 Aug 2023 15:28:24.689 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+166517:S 02 Aug 2023 15:28:24.689 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:28:24.689 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:28:24.689 * REPLICAOF 127.0.0.1:6380 enabled (user request from 'id=6 addr=127.0.0.1:54924 laddr=127.0.0.1:6379 fd=8 name=sentinel-ba0d0334-cmd age=10 idle=0 flags=x db=0 sub=0 psub=0 ssub=0 multi=4 qbuf=196 qbuf-free=20278 argv-mem=4 multi-mem=177 rbs=1024 rbp=1024 obl=45 oll=0 omem=0 tot-mem=22573 events=r cmd=exec user=default redir=-1 resp=2')
+166517:S 02 Aug 2023 15:28:24.694 # CONFIG REWRITE executed with success.
+166517:S 02 Aug 2023 15:28:24.694 * Non blocking connect for SYNC fired the event.
+166517:S 02 Aug 2023 15:28:24.694 * Master replied to PING, replication can continue...
+166517:S 02 Aug 2023 15:28:24.695 * Trying a partial resynchronization (request ab11f21399e09377ce1040f8b32e8454fe8639aa:1).
+166517:S 02 Aug 2023 15:28:29.623 * Full resync from master: 89afeab1978981d3c6a8e835ef17a54aa430edea:218667
+166517:S 02 Aug 2023 15:28:29.624 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+166517:S 02 Aug 2023 15:28:29.625 * Discarding previously cached master state.
+166517:S 02 Aug 2023 15:28:29.625 * MASTER <-> REPLICA sync: Flushing old data
+166517:S 02 Aug 2023 15:28:29.625 * MASTER <-> REPLICA sync: Loading DB in memory
+166517:S 02 Aug 2023 15:28:29.627 * Loading RDB produced by version 7.0.12
+166517:S 02 Aug 2023 15:28:29.627 * RDB age 0 seconds
+166517:S 02 Aug 2023 15:28:29.627 * RDB memory usage when created 1.80 Mb
+166517:S 02 Aug 2023 15:28:29.628 * Done loading RDB, keys loaded: 16, keys expired: 0.
+166517:S 02 Aug 2023 15:28:29.628 * MASTER <-> REPLICA sync: Finished with success
+166517:S 02 Aug 2023 15:28:29.628 * Creating AOF incr file temp-appendonly-6379.aof.incr on background rewrite
+166517:S 02 Aug 2023 15:28:29.628 * Background append only file rewriting started by pid 166549
+166549:C 02 Aug 2023 15:28:29.630 * Successfully created the temporary AOF base file temp-rewriteaof-bg-166549.aof
+166549:C 02 Aug 2023 15:28:29.630 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+166517:S 02 Aug 2023 15:28:29.676 * Background AOF rewrite terminated with success
+166517:S 02 Aug 2023 15:28:29.676 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-166549.aof into appendonly-6379.aof.8.base.rdb
+166517:S 02 Aug 2023 15:28:29.676 * Successfully renamed the temporary AOF incr file temp-appendonly-6379.aof.incr into appendonly-6379.aof.5.incr.aof
+166517:S 02 Aug 2023 15:28:29.678 * Removing the history file appendonly-6379.aof.4.incr.aof in the background
+166517:S 02 Aug 2023 15:28:29.679 * Removing the history file appendonly-6379.aof.7.base.rdb in the background
+166517:S 02 Aug 2023 15:28:29.682 * Background AOF rewrite finished successfully
+166517:S 02 Aug 2023 15:29:05.873 # Connection with master lost.
+166517:S 02 Aug 2023 15:29:05.873 * Caching the disconnected master state.
+166517:S 02 Aug 2023 15:29:05.873 * Reconnecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:05.873 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:05.873 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:06.843 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:06.844 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:06.844 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:07.851 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:07.851 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:07.851 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:08.861 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:08.861 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:08.861 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:09.869 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:09.869 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:09.869 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:10.881 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:10.881 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:10.881 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:11.890 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:11.890 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:11.890 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:12.898 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:12.898 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:12.899 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:13.908 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:13.908 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:13.908 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:14.916 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:14.916 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:14.916 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:15.017 * 3 changes in 60 seconds. Saving...
+166517:S 02 Aug 2023 15:29:15.018 * Background saving started by pid 166681
+166681:C 02 Aug 2023 15:29:15.020 * DB saved on disk
+166681:C 02 Aug 2023 15:29:15.021 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+166517:S 02 Aug 2023 15:29:15.118 * Background saving terminated with success
+166517:S 02 Aug 2023 15:29:15.924 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:15.924 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:15.924 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:16.931 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:16.931 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:16.931 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:17.943 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:17.943 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:17.943 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:18.951 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:18.951 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:18.951 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:19.960 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:19.960 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:19.960 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:20.970 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:20.971 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:20.971 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:21.981 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:21.981 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:21.981 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:22.992 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:22.992 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:22.992 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:24.000 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:24.000 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:24.000 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:25.009 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:25.009 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:25.009 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:26.018 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:26.018 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:26.018 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:27.028 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:27.028 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:27.028 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:28.037 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:28.037 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:28.037 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:29.048 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:29.048 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:29.048 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:30.059 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:30.059 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:30.060 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:31.068 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:31.069 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:31.069 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:32.079 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:32.079 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:32.079 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:33.090 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:33.091 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:33.091 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:34.101 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:34.101 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:34.101 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:35.113 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:35.113 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:35.113 # Error condition on socket for SYNC: Connection refused
+166517:S 02 Aug 2023 15:29:36.123 * Connecting to MASTER 127.0.0.1:6380
+166517:S 02 Aug 2023 15:29:36.123 * MASTER <-> REPLICA sync started
+166517:S 02 Aug 2023 15:29:36.123 # Error condition on socket for SYNC: Connection refused
+166517:M 02 Aug 2023 15:29:36.226 * Discarding previously cached master state.
+166517:M 02 Aug 2023 15:29:36.226 # Setting secondary replication ID to 89afeab1978981d3c6a8e835ef17a54aa430edea, valid up to offset: 225952. New replication ID is f18183873135e18db73e3a4e540b0049446b6bff
+166517:M 02 Aug 2023 15:29:36.226 * MASTER MODE enabled (user request from 'id=6 addr=127.0.0.1:54924 laddr=127.0.0.1:6379 fd=8 name=sentinel-ba0d0334-cmd age=82 idle=0 flags=x db=0 sub=0 psub=0 ssub=0 multi=4 qbuf=188 qbuf-free=20286 argv-mem=4 multi-mem=169 rbs=1024 rbp=45 obl=45 oll=0 omem=0 tot-mem=22565 events=r cmd=exec user=default redir=-1 resp=2')
+166517:M 02 Aug 2023 15:29:36.229 # CONFIG REWRITE executed with success.
+166517:M 02 Aug 2023 15:30:31.430 * Replica 127.0.0.1:6380 asks for synchronization
+166517:M 02 Aug 2023 15:30:31.430 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'c4534b02f67dc882698e12128d323ac3ad9058f6', my replication IDs are 'f18183873135e18db73e3a4e540b0049446b6bff' and '89afeab1978981d3c6a8e835ef17a54aa430edea')
+166517:M 02 Aug 2023 15:30:31.430 * Delay next BGSAVE for diskless SYNC
+166517:M 02 Aug 2023 15:30:36.663 * Starting BGSAVE for SYNC with target: replicas sockets
+166517:M 02 Aug 2023 15:30:36.663 * Background RDB transfer started by pid 166790
+166790:C 02 Aug 2023 15:30:36.664 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+166517:M 02 Aug 2023 15:30:36.664 # Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+166517:M 02 Aug 2023 15:30:36.667 * Background RDB transfer terminated with success
+166517:M 02 Aug 2023 15:30:36.667 * Streamed RDB transfer with replica 127.0.0.1:6380 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+166517:M 02 Aug 2023 15:30:36.667 * Synchronization with replica 127.0.0.1:6380 succeeded
+166517:M 02 Aug 2023 15:34:33.633 * Replica 127.0.0.1:6381 asks for synchronization
+166517:M 02 Aug 2023 15:34:33.633 * Full resync requested by replica 127.0.0.1:6381
+166517:M 02 Aug 2023 15:34:33.633 * Delay next BGSAVE for diskless SYNC
+166517:M 02 Aug 2023 15:34:38.871 * Starting BGSAVE for SYNC with target: replicas sockets
+166517:M 02 Aug 2023 15:34:38.871 * Background RDB transfer started by pid 167254
+167254:C 02 Aug 2023 15:34:38.873 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+166517:M 02 Aug 2023 15:34:38.873 # Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+166517:M 02 Aug 2023 15:34:38.881 * Background RDB transfer terminated with success
+166517:M 02 Aug 2023 15:34:38.881 * Streamed RDB transfer with replica 127.0.0.1:6381 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+166517:M 02 Aug 2023 15:34:38.881 * Synchronization with replica 127.0.0.1:6381 succeeded
+166517:M 02 Aug 2023 16:28:45.829 # User requested shutdown...
+166517:M 02 Aug 2023 16:28:45.830 * 2 of 2 replicas are in sync when shutting down.
+166517:M 02 Aug 2023 16:28:45.830 * Calling fsync() on the AOF file.
+166517:M 02 Aug 2023 16:28:45.830 * Saving the final RDB snapshot before exiting.
+166517:M 02 Aug 2023 16:28:45.834 * DB saved on disk
+166517:M 02 Aug 2023 16:28:45.834 * Removing the pid file.
+166517:M 02 Aug 2023 16:28:45.834 # Redis is now ready to exit, bye bye...
+169359:C 02 Aug 2023 16:31:48.084 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+169359:C 02 Aug 2023 16:31:48.084 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=169359, just started
+169359:C 02 Aug 2023 16:31:48.084 # Configuration loaded
+169359:M 02 Aug 2023 16:31:48.084 * monotonic clock: POSIX clock_gettime
+169359:M 02 Aug 2023 16:31:48.085 * Running mode=standalone, port=6379.
+169359:M 02 Aug 2023 16:31:48.085 # Server initialized
+169359:M 02 Aug 2023 16:31:48.092 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+169359:M 02 Aug 2023 16:31:48.093 * Reading RDB base file on AOF loading...
+169359:M 02 Aug 2023 16:31:48.093 * Loading RDB produced by version 7.0.12
+169359:M 02 Aug 2023 16:31:48.094 * RDB age 3799 seconds
+169359:M 02 Aug 2023 16:31:48.094 * RDB memory usage when created 1.47 Mb
+169359:M 02 Aug 2023 16:31:48.094 * RDB is base AOF
+169359:M 02 Aug 2023 16:31:48.094 * Done loading RDB, keys loaded: 16, keys expired: 0.
+169359:M 02 Aug 2023 16:31:48.094 * DB loaded from base file appendonly-6379.aof.8.base.rdb: 0.001 seconds
+169359:M 02 Aug 2023 16:31:48.094 * DB loaded from append only file: 0.001 seconds
+169359:M 02 Aug 2023 16:31:48.094 * Opening AOF incr file appendonly-6379.aof.5.incr.aof on server start
+169359:M 02 Aug 2023 16:31:48.094 * Ready to accept connections
+169359:M 02 Aug 2023 16:31:52.690 * Replica 192.168.10.131:6380 asks for synchronization
+169359:M 02 Aug 2023 16:31:52.690 * Full resync requested by replica 192.168.10.131:6380
+169359:M 02 Aug 2023 16:31:52.690 * Replication backlog created, my new replication IDs are '18dd28b20ef30694562084048b45dbc76d4abe42' and '0000000000000000000000000000000000000000'
+169359:M 02 Aug 2023 16:31:52.690 * Delay next BGSAVE for diskless SYNC
+169359:M 02 Aug 2023 16:31:54.420 * Replica 192.168.10.131:6381 asks for synchronization
+169359:M 02 Aug 2023 16:31:54.420 * Full resync requested by replica 192.168.10.131:6381
+169359:M 02 Aug 2023 16:31:54.420 * Delay next BGSAVE for diskless SYNC
+169359:M 02 Aug 2023 16:31:57.061 * Starting BGSAVE for SYNC with target: replicas sockets
+169359:M 02 Aug 2023 16:31:57.061 * Background RDB transfer started by pid 169396
+169396:C 02 Aug 2023 16:31:57.063 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+169359:M 02 Aug 2023 16:31:57.063 # Diskless rdb transfer, done reading from pipe, 2 replicas still up.
+169359:M 02 Aug 2023 16:31:57.067 * Background RDB transfer terminated with success
+169359:M 02 Aug 2023 16:31:57.067 * Streamed RDB transfer with replica 192.168.10.131:6380 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+169359:M 02 Aug 2023 16:31:57.067 * Synchronization with replica 192.168.10.131:6380 succeeded
+169359:M 02 Aug 2023 16:31:57.067 * Streamed RDB transfer with replica 192.168.10.131:6381 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+169359:M 02 Aug 2023 16:31:57.067 * Synchronization with replica 192.168.10.131:6381 succeeded
+169359:M 04 Aug 2023 22:51:36.758 * 3 changes in 60 seconds. Saving...
+169359:M 04 Aug 2023 22:51:36.775 * Background saving started by pid 203285
+203285:C 04 Aug 2023 22:51:36.810 * DB saved on disk
+203285:C 04 Aug 2023 22:51:36.810 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+169359:M 04 Aug 2023 22:51:36.875 * Background saving terminated with success
+169359:M 08 Aug 2023 16:07:48.012 # User requested shutdown...
+169359:M 08 Aug 2023 16:07:48.015 * Waiting for replicas before shutting down.
+169359:M 08 Aug 2023 16:07:48.881 * 2 of 2 replicas are in sync when shutting down.
+169359:M 08 Aug 2023 16:07:48.881 * Calling fsync() on the AOF file.
+169359:M 08 Aug 2023 16:07:48.881 * Saving the final RDB snapshot before exiting.
+169359:M 08 Aug 2023 16:07:48.901 * DB saved on disk
+169359:M 08 Aug 2023 16:07:48.901 * Removing the pid file.
+169359:M 08 Aug 2023 16:07:48.901 # Redis is now ready to exit, bye bye...
+262869:C 11 Aug 2023 13:25:08.131 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+262869:C 11 Aug 2023 13:25:08.137 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=262869, just started
+262869:C 11 Aug 2023 13:25:08.137 # Configuration loaded
+262869:M 11 Aug 2023 13:25:08.138 * monotonic clock: POSIX clock_gettime
+262869:M 11 Aug 2023 13:25:08.141 * Running mode=standalone, port=6379.
+262869:M 11 Aug 2023 13:25:08.143 # Server initialized
+262869:M 11 Aug 2023 13:25:08.146 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+262869:M 11 Aug 2023 13:25:08.149 * Reading RDB base file on AOF loading...
+262869:M 11 Aug 2023 13:25:08.149 * Loading RDB produced by version 7.0.12
+262869:M 11 Aug 2023 13:25:08.149 * RDB age 770199 seconds
+262869:M 11 Aug 2023 13:25:08.149 * RDB memory usage when created 1.47 Mb
+262869:M 11 Aug 2023 13:25:08.149 * RDB is base AOF
+262869:M 11 Aug 2023 13:25:08.150 * Done loading RDB, keys loaded: 16, keys expired: 0.
+262869:M 11 Aug 2023 13:25:08.150 * DB loaded from base file appendonly-6379.aof.8.base.rdb: 0.002 seconds
+262869:M 11 Aug 2023 13:25:08.151 * DB loaded from incr file appendonly-6379.aof.5.incr.aof: 0.001 seconds
+262869:M 11 Aug 2023 13:25:08.151 * DB loaded from append only file: 0.003 seconds
+262869:M 11 Aug 2023 13:25:08.151 * Opening AOF incr file appendonly-6379.aof.5.incr.aof on server start
+262869:M 11 Aug 2023 13:25:08.151 * Ready to accept connections
+262869:M 11 Aug 2023 13:26:09.049 * 3 changes in 60 seconds. Saving...
+262869:M 11 Aug 2023 13:26:09.049 * Background saving started by pid 263020
+263020:C 11 Aug 2023 13:26:09.058 * DB saved on disk
+263020:C 11 Aug 2023 13:26:09.059 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+262869:M 11 Aug 2023 13:26:09.150 * Background saving terminated with success
+263367:C 11 Aug 2023 13:34:28.987 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+263367:C 11 Aug 2023 13:34:28.988 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=263367, just started
+263367:C 11 Aug 2023 13:34:28.988 # Configuration loaded
+263367:M 11 Aug 2023 13:34:28.988 * monotonic clock: POSIX clock_gettime
+263367:M 11 Aug 2023 13:34:28.989 # Warning: Could not create server TCP listening socket 192.168.10.131:6379: bind: Address already in use
+263367:M 11 Aug 2023 13:34:28.989 # Failed listening on port 6379 (TCP), aborting.
+262869:M 11 Aug 2023 13:47:39.495 # User requested shutdown...
+262869:M 11 Aug 2023 13:47:39.495 * Calling fsync() on the AOF file.
+262869:M 11 Aug 2023 13:47:39.495 * Saving the final RDB snapshot before exiting.
+262869:M 11 Aug 2023 13:47:39.499 * DB saved on disk
+262869:M 11 Aug 2023 13:47:39.499 * Removing the pid file.
+262869:M 11 Aug 2023 13:47:39.499 # Redis is now ready to exit, bye bye...
+263789:C 11 Aug 2023 13:47:47.077 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+263789:C 11 Aug 2023 13:47:47.077 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=263789, just started
+263789:C 11 Aug 2023 13:47:47.077 # Configuration loaded
+263789:M 11 Aug 2023 13:47:47.078 * monotonic clock: POSIX clock_gettime
+263789:M 11 Aug 2023 13:47:47.079 * Running mode=standalone, port=6379.
+263789:M 11 Aug 2023 13:47:47.079 # Server initialized
+263789:M 11 Aug 2023 13:47:47.079 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+263789:M 11 Aug 2023 13:47:47.080 * Reading RDB base file on AOF loading...
+263789:M 11 Aug 2023 13:47:47.080 * Loading RDB produced by version 7.0.12
+263789:M 11 Aug 2023 13:47:47.080 * RDB age 771558 seconds
+263789:M 11 Aug 2023 13:47:47.080 * RDB memory usage when created 1.47 Mb
+263789:M 11 Aug 2023 13:47:47.080 * RDB is base AOF
+263789:M 11 Aug 2023 13:47:47.082 * Done loading RDB, keys loaded: 16, keys expired: 0.
+263789:M 11 Aug 2023 13:47:47.082 * DB loaded from base file appendonly-6379.aof.8.base.rdb: 0.002 seconds
+263789:M 11 Aug 2023 13:47:47.082 * DB loaded from incr file appendonly-6379.aof.5.incr.aof: 0.000 seconds
+263789:M 11 Aug 2023 13:47:47.082 * DB loaded from append only file: 0.003 seconds
+263789:M 11 Aug 2023 13:47:47.083 * Opening AOF incr file appendonly-6379.aof.5.incr.aof on server start
+263789:M 11 Aug 2023 13:47:47.083 * Ready to accept connections
+263789:M 11 Aug 2023 13:48:48.069 * 3 changes in 60 seconds. Saving...
+263789:M 11 Aug 2023 13:48:48.070 * Background saving started by pid 263984
+263984:C 11 Aug 2023 13:48:48.074 * DB saved on disk
+263984:C 11 Aug 2023 13:48:48.074 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+263789:M 11 Aug 2023 13:48:48.170 * Background saving terminated with success
+28270:C 17 Aug 2023 21:54:49.629 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+28270:C 17 Aug 2023 21:54:49.629 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=28270, just started
+28270:C 17 Aug 2023 21:54:49.629 # Configuration loaded
+28270:M 17 Aug 2023 21:54:49.629 * monotonic clock: POSIX clock_gettime
+28270:M 17 Aug 2023 21:54:49.631 * Running mode=standalone, port=6379.
+28270:M 17 Aug 2023 21:54:49.634 # Server initialized
+28270:M 17 Aug 2023 21:54:49.639 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+28270:M 17 Aug 2023 21:54:49.648 * Reading RDB base file on AOF loading...
+28270:M 17 Aug 2023 21:54:49.648 * Loading RDB produced by version 7.0.12
+28270:M 17 Aug 2023 21:54:49.648 * RDB age 1319180 seconds
+28270:M 17 Aug 2023 21:54:49.648 * RDB memory usage when created 1.47 Mb
+28270:M 17 Aug 2023 21:54:49.648 * RDB is base AOF
+28270:M 17 Aug 2023 21:54:49.662 * Done loading RDB, keys loaded: 16, keys expired: 0.
+28270:M 17 Aug 2023 21:54:49.662 * DB loaded from base file appendonly-6379.aof.8.base.rdb: 0.014 seconds
+28270:M 17 Aug 2023 21:54:49.663 * DB loaded from incr file appendonly-6379.aof.5.incr.aof: 0.001 seconds
+28270:M 17 Aug 2023 21:54:49.663 * DB loaded from append only file: 0.015 seconds
+28270:M 17 Aug 2023 21:54:49.663 * Opening AOF incr file appendonly-6379.aof.5.incr.aof on server start
+28270:M 17 Aug 2023 21:54:49.663 * Ready to accept connections
+28270:M 17 Aug 2023 21:55:50.036 * 3 changes in 60 seconds. Saving...
+28270:M 17 Aug 2023 21:55:50.037 * Background saving started by pid 28406
+28406:C 17 Aug 2023 21:55:50.048 * DB saved on disk
+28406:C 17 Aug 2023 21:55:50.048 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+28270:M 17 Aug 2023 21:55:50.138 * Background saving terminated with success

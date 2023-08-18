@@ -1,0 +1,144 @@
+167224:C 02 Aug 2023 15:34:33.628 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+167224:C 02 Aug 2023 15:34:33.628 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=167224, just started
+167224:C 02 Aug 2023 15:34:33.628 # Configuration loaded
+167224:S 02 Aug 2023 15:34:33.628 * monotonic clock: POSIX clock_gettime
+167224:S 02 Aug 2023 15:34:33.629 * Running mode=standalone, port=6381.
+167224:S 02 Aug 2023 15:34:33.629 # Server initialized
+167224:S 02 Aug 2023 15:34:33.629 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+167224:S 02 Aug 2023 15:34:33.630 * Creating AOF base file appendonly-6381.aof.1.base.rdb on server start
+167224:S 02 Aug 2023 15:34:33.633 * Creating AOF incr file appendonly-6381.aof.1.incr.aof on server start
+167224:S 02 Aug 2023 15:34:33.633 * Ready to accept connections
+167224:S 02 Aug 2023 15:34:33.633 * Connecting to MASTER 127.0.0.1:6379
+167224:S 02 Aug 2023 15:34:33.633 * MASTER <-> REPLICA sync started
+167224:S 02 Aug 2023 15:34:33.633 * Non blocking connect for SYNC fired the event.
+167224:S 02 Aug 2023 15:34:33.633 * Master replied to PING, replication can continue...
+167224:S 02 Aug 2023 15:34:33.633 * Partial resynchronization not possible (no cached master)
+167224:S 02 Aug 2023 15:34:38.872 * Full resync from master: f18183873135e18db73e3a4e540b0049446b6bff:285798
+167224:S 02 Aug 2023 15:34:38.872 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+167224:S 02 Aug 2023 15:34:38.873 * MASTER <-> REPLICA sync: Flushing old data
+167224:S 02 Aug 2023 15:34:38.873 * MASTER <-> REPLICA sync: Loading DB in memory
+167224:S 02 Aug 2023 15:34:38.880 * Loading RDB produced by version 7.0.12
+167224:S 02 Aug 2023 15:34:38.880 * RDB age 0 seconds
+167224:S 02 Aug 2023 15:34:38.880 * RDB memory usage when created 1.62 Mb
+167224:S 02 Aug 2023 15:34:38.881 * Done loading RDB, keys loaded: 16, keys expired: 0.
+167224:S 02 Aug 2023 15:34:38.881 * MASTER <-> REPLICA sync: Finished with success
+167224:S 02 Aug 2023 15:34:38.881 * Creating AOF incr file temp-appendonly-6381.aof.incr on background rewrite
+167224:S 02 Aug 2023 15:34:38.881 * Background append only file rewriting started by pid 167255
+167255:C 02 Aug 2023 15:34:38.883 * Successfully created the temporary AOF base file temp-rewriteaof-bg-167255.aof
+167255:C 02 Aug 2023 15:34:38.883 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+167224:S 02 Aug 2023 15:34:38.972 * Background AOF rewrite terminated with success
+167224:S 02 Aug 2023 15:34:38.972 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-167255.aof into appendonly-6381.aof.2.base.rdb
+167224:S 02 Aug 2023 15:34:38.972 * Successfully renamed the temporary AOF incr file temp-appendonly-6381.aof.incr into appendonly-6381.aof.2.incr.aof
+167224:S 02 Aug 2023 15:34:38.974 * Removing the history file appendonly-6381.aof.1.incr.aof in the background
+167224:S 02 Aug 2023 15:34:38.974 * Removing the history file appendonly-6381.aof.1.base.rdb in the background
+167224:S 02 Aug 2023 15:34:38.976 * Background AOF rewrite finished successfully
+167224:S 02 Aug 2023 16:28:45.835 # Connection with master lost.
+167224:S 02 Aug 2023 16:28:45.835 * Caching the disconnected master state.
+167224:S 02 Aug 2023 16:28:45.835 * Reconnecting to MASTER 127.0.0.1:6379
+167224:S 02 Aug 2023 16:28:45.835 * MASTER <-> REPLICA sync started
+167224:S 02 Aug 2023 16:28:45.836 # Error condition on socket for SYNC: Connection refused
+167224:S 02 Aug 2023 16:28:46.521 * Connecting to MASTER 127.0.0.1:6379
+167224:S 02 Aug 2023 16:28:46.521 * MASTER <-> REPLICA sync started
+167224:S 02 Aug 2023 16:28:46.521 # Error condition on socket for SYNC: Connection refused
+167224:S 02 Aug 2023 16:28:47.529 * Connecting to MASTER 127.0.0.1:6379
+167224:S 02 Aug 2023 16:28:47.530 * MASTER <-> REPLICA sync started
+167224:S 02 Aug 2023 16:28:47.530 # Error condition on socket for SYNC: Connection refused
+167224:S 02 Aug 2023 16:28:48.538 * Connecting to MASTER 127.0.0.1:6379
+167224:S 02 Aug 2023 16:28:48.539 * MASTER <-> REPLICA sync started
+167224:S 02 Aug 2023 16:28:48.539 # Error condition on socket for SYNC: Connection refused
+167224:S 02 Aug 2023 16:28:49.545 * Connecting to MASTER 127.0.0.1:6379
+167224:S 02 Aug 2023 16:28:49.545 * MASTER <-> REPLICA sync started
+167224:S 02 Aug 2023 16:28:49.545 # Error condition on socket for SYNC: Connection refused
+167224:S 02 Aug 2023 16:28:50.552 * Connecting to MASTER 127.0.0.1:6379
+167224:S 02 Aug 2023 16:28:50.552 * MASTER <-> REPLICA sync started
+167224:S 02 Aug 2023 16:28:50.552 # Error condition on socket for SYNC: Connection refused
+167224:S 02 Aug 2023 16:28:51.561 * Connecting to MASTER 127.0.0.1:6379
+167224:S 02 Aug 2023 16:28:51.561 * MASTER <-> REPLICA sync started
+167224:S 02 Aug 2023 16:28:51.561 # Error condition on socket for SYNC: Connection refused
+167224:S 02 Aug 2023 16:28:51.670 # User requested shutdown...
+167224:S 02 Aug 2023 16:28:51.670 * Calling fsync() on the AOF file.
+167224:S 02 Aug 2023 16:28:51.670 * Saving the final RDB snapshot before exiting.
+167224:S 02 Aug 2023 16:28:51.675 * DB saved on disk
+167224:S 02 Aug 2023 16:28:51.675 * Removing the pid file.
+167224:S 02 Aug 2023 16:28:51.675 # Redis is now ready to exit, bye bye...
+169378:C 02 Aug 2023 16:31:54.418 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+169378:C 02 Aug 2023 16:31:54.418 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=169378, just started
+169378:C 02 Aug 2023 16:31:54.418 # Configuration loaded
+169378:S 02 Aug 2023 16:31:54.418 * monotonic clock: POSIX clock_gettime
+169378:S 02 Aug 2023 16:31:54.418 * Running mode=standalone, port=6381.
+169378:S 02 Aug 2023 16:31:54.418 # Server initialized
+169378:S 02 Aug 2023 16:31:54.419 * Module 'mros' loaded from /home/swyang/Redis/redis-similarity/src/build/libredis-similarity.so
+169378:S 02 Aug 2023 16:31:54.419 * Reading RDB base file on AOF loading...
+169378:S 02 Aug 2023 16:31:54.419 * Loading RDB produced by version 7.0.12
+169378:S 02 Aug 2023 16:31:54.419 * RDB age 3436 seconds
+169378:S 02 Aug 2023 16:31:54.419 * RDB memory usage when created 1.32 Mb
+169378:S 02 Aug 2023 16:31:54.419 * RDB is base AOF
+169378:S 02 Aug 2023 16:31:54.419 * Done loading RDB, keys loaded: 16, keys expired: 0.
+169378:S 02 Aug 2023 16:31:54.419 * DB loaded from base file appendonly-6381.aof.2.base.rdb: 0.001 seconds
+169378:S 02 Aug 2023 16:31:54.419 * DB loaded from append only file: 0.001 seconds
+169378:S 02 Aug 2023 16:31:54.419 * Opening AOF incr file appendonly-6381.aof.2.incr.aof on server start
+169378:S 02 Aug 2023 16:31:54.419 * Ready to accept connections
+169378:S 02 Aug 2023 16:31:54.419 * Connecting to MASTER 192.168.10.131:6379
+169378:S 02 Aug 2023 16:31:54.420 * MASTER <-> REPLICA sync started
+169378:S 02 Aug 2023 16:31:54.420 * Non blocking connect for SYNC fired the event.
+169378:S 02 Aug 2023 16:31:54.420 * Master replied to PING, replication can continue...
+169378:S 02 Aug 2023 16:31:54.420 * Partial resynchronization not possible (no cached master)
+169378:S 02 Aug 2023 16:31:57.061 * Full resync from master: 18dd28b20ef30694562084048b45dbc76d4abe42:0
+169378:S 02 Aug 2023 16:31:57.063 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+169378:S 02 Aug 2023 16:31:57.063 * MASTER <-> REPLICA sync: Flushing old data
+169378:S 02 Aug 2023 16:31:57.063 * MASTER <-> REPLICA sync: Loading DB in memory
+169378:S 02 Aug 2023 16:31:57.065 * Loading RDB produced by version 7.0.12
+169378:S 02 Aug 2023 16:31:57.065 * RDB age 0 seconds
+169378:S 02 Aug 2023 16:31:57.065 * RDB memory usage when created 1.15 Mb
+169378:S 02 Aug 2023 16:31:57.065 * Done loading RDB, keys loaded: 16, keys expired: 0.
+169378:S 02 Aug 2023 16:31:57.065 * MASTER <-> REPLICA sync: Finished with success
+169378:S 02 Aug 2023 16:31:57.066 * Creating AOF incr file temp-appendonly-6381.aof.incr on background rewrite
+169378:S 02 Aug 2023 16:31:57.066 * Background append only file rewriting started by pid 169399
+169399:C 02 Aug 2023 16:31:57.069 * Successfully created the temporary AOF base file temp-rewriteaof-bg-169399.aof
+169399:C 02 Aug 2023 16:31:57.070 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+169378:S 02 Aug 2023 16:31:57.141 * Background AOF rewrite terminated with success
+169378:S 02 Aug 2023 16:31:57.141 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-169399.aof into appendonly-6381.aof.3.base.rdb
+169378:S 02 Aug 2023 16:31:57.141 * Successfully renamed the temporary AOF incr file temp-appendonly-6381.aof.incr into appendonly-6381.aof.3.incr.aof
+169378:S 02 Aug 2023 16:31:57.144 * Removing the history file appendonly-6381.aof.2.incr.aof in the background
+169378:S 02 Aug 2023 16:31:57.144 * Removing the history file appendonly-6381.aof.2.base.rdb in the background
+169378:S 02 Aug 2023 16:31:57.146 * Background AOF rewrite finished successfully
+169378:S 04 Aug 2023 22:51:36.775 * 3 changes in 60 seconds. Saving...
+169378:S 04 Aug 2023 22:51:36.787 * Background saving started by pid 203287
+203287:C 04 Aug 2023 22:51:36.824 * DB saved on disk
+203287:C 04 Aug 2023 22:51:36.824 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+169378:S 04 Aug 2023 22:51:36.889 * Background saving terminated with success
+169378:S 08 Aug 2023 16:07:48.908 # Connection with master lost.
+169378:S 08 Aug 2023 16:07:48.910 * Caching the disconnected master state.
+169378:S 08 Aug 2023 16:07:48.910 * Reconnecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:48.910 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:48.910 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:49.119 * Connecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:49.119 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:49.119 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:50.127 * Connecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:50.128 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:50.128 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:51.136 * Connecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:51.136 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:51.136 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:52.149 * Connecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:52.149 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:52.149 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:53.157 * Connecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:53.157 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:53.157 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:54.165 * Connecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:54.165 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:54.165 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:55.172 * Connecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:55.172 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:55.172 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:56.179 * Connecting to MASTER 192.168.10.131:6379
+169378:S 08 Aug 2023 16:07:56.179 * MASTER <-> REPLICA sync started
+169378:S 08 Aug 2023 16:07:56.179 # Error condition on socket for SYNC: Connection refused
+169378:S 08 Aug 2023 16:07:56.201 # User requested shutdown...
+169378:S 08 Aug 2023 16:07:56.201 * Calling fsync() on the AOF file.
+169378:S 08 Aug 2023 16:07:56.201 * Saving the final RDB snapshot before exiting.
+169378:S 08 Aug 2023 16:07:56.220 * DB saved on disk
+169378:S 08 Aug 2023 16:07:56.220 * Removing the pid file.
+169378:S 08 Aug 2023 16:07:56.220 # Redis is now ready to exit, bye bye...

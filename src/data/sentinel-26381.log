@@ -1,0 +1,158 @@
+165723:X 02 Aug 2023 15:12:49.149 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+165723:X 02 Aug 2023 15:12:49.149 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=165723, just started
+165723:X 02 Aug 2023 15:12:49.149 # Configuration loaded
+165723:X 02 Aug 2023 15:12:49.149 * monotonic clock: POSIX clock_gettime
+165723:X 02 Aug 2023 15:12:49.156 * Running mode=sentinel, port=26381.
+165723:X 02 Aug 2023 15:12:49.156 # Sentinel ID is ecb1bfce757bf1a4a7280a45a67ec79fa29028cd
+165723:X 02 Aug 2023 15:12:49.156 # +monitor master mymaster 127.0.0.1 6379 quorum 2
+165723:X 02 Aug 2023 15:16:13.422 # User requested shutdown...
+165723:X 02 Aug 2023 15:16:13.422 * Removing the pid file.
+165723:X 02 Aug 2023 15:16:13.422 # Sentinel is now ready to exit, bye bye...
+166243:X 02 Aug 2023 15:17:03.170 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+166243:X 02 Aug 2023 15:17:03.170 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=166243, just started
+166243:X 02 Aug 2023 15:17:03.170 # Configuration loaded
+166243:X 02 Aug 2023 15:17:03.170 * monotonic clock: POSIX clock_gettime
+166243:X 02 Aug 2023 15:17:03.171 * Running mode=sentinel, port=26381.
+166243:X 02 Aug 2023 15:17:03.179 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:17:03.179 # Sentinel ID is ba0d0334a5007ba323cb5df7e9b15cef094e3493
+166243:X 02 Aug 2023 15:17:03.179 # +monitor master mymaster 127.0.0.1 6379 quorum 2
+166243:X 02 Aug 2023 15:17:03.179 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:17:03.181 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:17:04.811 * +sentinel sentinel 9c04a588e97974d19ffcc08ae49b5a684ca218d8 127.0.0.1 26380 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:17:04.819 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:17:05.029 * +sentinel sentinel ecb1bfce757bf1a4a7280a45a67ec79fa29028cd 127.0.0.1 26379 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:17:05.031 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:26:20.837 # +sdown master mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:26:20.864 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:26:20.864 # +new-epoch 1
+166243:X 02 Aug 2023 15:26:20.867 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:26:20.867 # +vote-for-leader ecb1bfce757bf1a4a7280a45a67ec79fa29028cd 1
+166243:X 02 Aug 2023 15:26:20.928 # +odown master mymaster 127.0.0.1 6379 #quorum 3/2
+166243:X 02 Aug 2023 15:26:20.928 # Next failover delay: I will not start a failover before Wed Aug  2 15:32:21 2023
+166243:X 02 Aug 2023 15:26:21.482 # +config-update-from sentinel ecb1bfce757bf1a4a7280a45a67ec79fa29028cd 127.0.0.1 26379 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:26:21.482 # +switch-master mymaster 127.0.0.1 6379 127.0.0.1 6380
+166243:X 02 Aug 2023 15:26:21.482 * +slave slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:26:21.485 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:26:51.536 # +sdown slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:28:14.722 # -sdown slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:28:24.689 * +convert-to-slave slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:35.928 # +sdown master mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:35.991 # +odown master mymaster 127.0.0.1 6380 #quorum 2/2
+166243:X 02 Aug 2023 15:29:35.991 # +new-epoch 2
+166243:X 02 Aug 2023 15:29:35.991 # +try-failover master mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:35.994 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:29:35.994 # +vote-for-leader ba0d0334a5007ba323cb5df7e9b15cef094e3493 2
+166243:X 02 Aug 2023 15:29:36.000 # ecb1bfce757bf1a4a7280a45a67ec79fa29028cd voted for ba0d0334a5007ba323cb5df7e9b15cef094e3493 2
+166243:X 02 Aug 2023 15:29:36.001 # 9c04a588e97974d19ffcc08ae49b5a684ca218d8 voted for ba0d0334a5007ba323cb5df7e9b15cef094e3493 2
+166243:X 02 Aug 2023 15:29:36.062 # +elected-leader master mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:36.062 # +failover-state-select-slave master mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:36.125 # +selected-slave slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:36.125 * +failover-state-send-slaveof-noone slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:36.226 * +failover-state-wait-promotion slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:36.836 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:29:36.836 # +promoted-slave slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:36.836 # +failover-state-reconf-slaves master mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:36.897 # +failover-end master mymaster 127.0.0.1 6380
+166243:X 02 Aug 2023 15:29:36.897 # +switch-master mymaster 127.0.0.1 6380 127.0.0.1 6379
+166243:X 02 Aug 2023 15:29:36.897 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:29:36.899 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 15:30:06.923 # +sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:30:21.420 # -sdown slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:30:31.422 * +convert-to-slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:34:38.181 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+166243:X 02 Aug 2023 15:34:38.183 * Sentinel new configuration saved on disk
+166243:X 02 Aug 2023 16:12:34.027 # User requested shutdown...
+166243:X 02 Aug 2023 16:12:34.027 * Removing the pid file.
+166243:X 02 Aug 2023 16:12:34.027 # Sentinel is now ready to exit, bye bye...
+168191:X 02 Aug 2023 16:15:15.586 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+168191:X 02 Aug 2023 16:15:15.586 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=168191, just started
+168191:X 02 Aug 2023 16:15:15.586 # Configuration loaded
+168191:X 02 Aug 2023 16:15:15.586 * monotonic clock: POSIX clock_gettime
+168191:X 02 Aug 2023 16:15:15.587 * Running mode=sentinel, port=26381.
+168191:X 02 Aug 2023 16:15:15.596 * Sentinel new configuration saved on disk
+168191:X 02 Aug 2023 16:15:15.596 # Sentinel ID is 842aed74fcc61361f3a12703658cc1e9faaa30d5
+168191:X 02 Aug 2023 16:15:15.596 # +monitor master mymaster 127.0.0.1 6379 quorum 2
+168191:X 02 Aug 2023 16:15:15.597 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+168191:X 02 Aug 2023 16:15:15.600 * Sentinel new configuration saved on disk
+168191:X 02 Aug 2023 16:15:15.600 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+168191:X 02 Aug 2023 16:15:15.603 * Sentinel new configuration saved on disk
+168191:X 02 Aug 2023 16:15:17.006 * +sentinel sentinel 159e69b413af24bd9ceff085d9582e5589d44a4c 127.0.0.1 26380 @ mymaster 127.0.0.1 6379
+168191:X 02 Aug 2023 16:15:17.009 * Sentinel new configuration saved on disk
+168191:X 02 Aug 2023 16:15:17.054 * +sentinel sentinel fe387bf45ffa3ed95b17bad614a61158e6c2ad65 127.0.0.1 26379 @ mymaster 127.0.0.1 6379
+168191:X 02 Aug 2023 16:15:17.058 * Sentinel new configuration saved on disk
+168191:X 02 Aug 2023 16:22:11.497 # User requested shutdown...
+168191:X 02 Aug 2023 16:22:11.497 * Removing the pid file.
+168191:X 02 Aug 2023 16:22:11.498 # Sentinel is now ready to exit, bye bye...
+168523:X 02 Aug 2023 16:22:25.668 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+168523:X 02 Aug 2023 16:22:25.668 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=168523, just started
+168523:X 02 Aug 2023 16:22:25.668 # Configuration loaded
+168523:X 02 Aug 2023 16:22:25.669 * monotonic clock: POSIX clock_gettime
+168523:X 02 Aug 2023 16:22:25.669 * Running mode=sentinel, port=26381.
+168523:X 02 Aug 2023 16:22:25.673 * Sentinel new configuration saved on disk
+168523:X 02 Aug 2023 16:22:25.673 # Sentinel ID is e9cb257dee21f322b3ce1f358c7454ae4782432a
+168523:X 02 Aug 2023 16:22:25.673 # +monitor master mymaster 127.0.0.1 6379 quorum 2
+168523:X 02 Aug 2023 16:22:25.673 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+168523:X 02 Aug 2023 16:22:25.676 * Sentinel new configuration saved on disk
+168523:X 02 Aug 2023 16:22:25.676 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+168523:X 02 Aug 2023 16:22:25.677 * Sentinel new configuration saved on disk
+168523:X 02 Aug 2023 16:22:26.203 * +sentinel sentinel a33a44a1ebf8f17fc3bdc8e33a28ebdb74e55933 192.168.10.131 26379 @ mymaster 127.0.0.1 6379
+168523:X 02 Aug 2023 16:22:26.212 * Sentinel new configuration saved on disk
+168523:X 02 Aug 2023 16:22:27.371 * +sentinel sentinel 52d6dfb25d19eeaac8373a68001659dc9433fdcc 192.168.10.131 26380 @ mymaster 127.0.0.1 6379
+168523:X 02 Aug 2023 16:22:27.373 * Sentinel new configuration saved on disk
+168523:X 02 Aug 2023 16:25:34.709 # User requested shutdown...
+168523:X 02 Aug 2023 16:25:34.709 * Removing the pid file.
+168523:X 02 Aug 2023 16:25:34.709 # Sentinel is now ready to exit, bye bye...
+168841:X 02 Aug 2023 16:25:42.675 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+168841:X 02 Aug 2023 16:25:42.676 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=168841, just started
+168841:X 02 Aug 2023 16:25:42.676 # Configuration loaded
+168841:X 02 Aug 2023 16:25:42.676 * monotonic clock: POSIX clock_gettime
+168841:X 02 Aug 2023 16:25:42.682 * Running mode=sentinel, port=26381.
+168841:X 02 Aug 2023 16:25:42.686 * Sentinel new configuration saved on disk
+168841:X 02 Aug 2023 16:25:42.686 # Sentinel ID is 34d334d6e450140a718c0b79afb716e0fd4123f0
+168841:X 02 Aug 2023 16:25:42.687 # +monitor master mymaster 192.168.10.131 6379 quorum 2
+168841:X 02 Aug 2023 16:25:42.687 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 192.168.10.131 6379
+168841:X 02 Aug 2023 16:25:42.689 * Sentinel new configuration saved on disk
+168841:X 02 Aug 2023 16:25:42.690 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 192.168.10.131 6379
+168841:X 02 Aug 2023 16:25:42.692 * Sentinel new configuration saved on disk
+168841:X 02 Aug 2023 16:25:44.596 * +sentinel sentinel 503bb6760fe447ace64dc416aeddd6bc280661ca 192.168.10.131 26379 @ mymaster 192.168.10.131 6379
+168841:X 02 Aug 2023 16:25:44.604 * Sentinel new configuration saved on disk
+168841:X 02 Aug 2023 16:25:51.390 * +sentinel sentinel f7519013aa4c136e28b500bb8403470a8a6feb45 192.168.10.131 26380 @ mymaster 192.168.10.131 6379
+168841:X 02 Aug 2023 16:25:51.397 * Sentinel new configuration saved on disk
+168841:X 02 Aug 2023 16:28:34.198 # User requested shutdown...
+168841:X 02 Aug 2023 16:28:34.198 * Removing the pid file.
+168841:X 02 Aug 2023 16:28:34.198 # Sentinel is now ready to exit, bye bye...
+169541:X 02 Aug 2023 16:32:39.838 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+169541:X 02 Aug 2023 16:32:39.838 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=169541, just started
+169541:X 02 Aug 2023 16:32:39.838 # Configuration loaded
+169541:X 02 Aug 2023 16:32:39.839 * monotonic clock: POSIX clock_gettime
+169541:X 02 Aug 2023 16:32:39.839 * Running mode=sentinel, port=26381.
+169541:X 02 Aug 2023 16:32:39.848 * Sentinel new configuration saved on disk
+169541:X 02 Aug 2023 16:32:39.848 # Sentinel ID is 3109d0f9122ad69334b7c489effabaf2567c5a3e
+169541:X 02 Aug 2023 16:32:39.848 # +monitor master mymaster 192.168.10.131 6379 quorum 2
+169541:X 02 Aug 2023 16:32:39.849 * +slave slave 192.168.10.131:6380 192.168.10.131 6380 @ mymaster 192.168.10.131 6379
+169541:X 02 Aug 2023 16:32:39.851 * Sentinel new configuration saved on disk
+169541:X 02 Aug 2023 16:32:39.851 * +slave slave 192.168.10.131:6381 192.168.10.131 6381 @ mymaster 192.168.10.131 6379
+169541:X 02 Aug 2023 16:32:39.853 * Sentinel new configuration saved on disk
+169541:X 02 Aug 2023 16:32:44.443 * +sentinel sentinel 28170f8315866693bc7572274392b0b96e42228b 192.168.10.131 26380 @ mymaster 192.168.10.131 6379
+169541:X 02 Aug 2023 16:32:44.450 * Sentinel new configuration saved on disk
+169541:X 02 Aug 2023 16:32:48.934 * +sentinel sentinel 3dc86ddaa1fdafda98df3a6324e9e79c727078a9 192.168.10.131 26379 @ mymaster 192.168.10.131 6379
+169541:X 02 Aug 2023 16:32:48.937 * Sentinel new configuration saved on disk
+169541:X 08 Aug 2023 16:02:27.627 # +tilt #tilt mode entered
+169541:X 08 Aug 2023 16:02:57.697 # -tilt #tilt mode exited
+169541:X 08 Aug 2023 16:08:18.940 # +sdown master mymaster 192.168.10.131 6379
+169541:X 08 Aug 2023 16:08:19.012 # +odown master mymaster 192.168.10.131 6379 #quorum 2/2
+169541:X 08 Aug 2023 16:08:19.012 # +new-epoch 1
+169541:X 08 Aug 2023 16:08:19.012 # +try-failover master mymaster 192.168.10.131 6379
+169541:X 08 Aug 2023 16:08:19.020 * Sentinel new configuration saved on disk
+169541:X 08 Aug 2023 16:08:19.021 # +vote-for-leader 3109d0f9122ad69334b7c489effabaf2567c5a3e 1
+169541:X 08 Aug 2023 16:08:19.032 # 28170f8315866693bc7572274392b0b96e42228b voted for 3109d0f9122ad69334b7c489effabaf2567c5a3e 1
+169541:X 08 Aug 2023 16:08:19.032 # 3dc86ddaa1fdafda98df3a6324e9e79c727078a9 voted for 3109d0f9122ad69334b7c489effabaf2567c5a3e 1
+169541:X 08 Aug 2023 16:08:19.087 # +elected-leader master mymaster 192.168.10.131 6379
+169541:X 08 Aug 2023 16:08:19.088 # +failover-state-select-slave master mymaster 192.168.10.131 6379
+169541:X 08 Aug 2023 16:08:19.164 # -failover-abort-no-good-slave master mymaster 192.168.10.131 6379
+169541:X 08 Aug 2023 16:08:19.249 # Next failover delay: I will not start a failover before Tue Aug  8 16:14:19 2023
+169541:X 08 Aug 2023 16:08:22.466 # +sdown slave 192.168.10.131:6380 192.168.10.131 6380 @ mymaster 192.168.10.131 6379
+169541:X 08 Aug 2023 16:08:26.281 # +sdown slave 192.168.10.131:6381 192.168.10.131 6381 @ mymaster 192.168.10.131 6379
+169541:X 08 Aug 2023 16:09:43.521 # User requested shutdown...
+169541:X 08 Aug 2023 16:09:43.521 * Removing the pid file.
+169541:X 08 Aug 2023 16:09:43.522 # Sentinel is now ready to exit, bye bye...

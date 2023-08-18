@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC  -Wall -g -fPIC -lc -lm -std=gnu99   -shared -Wl,-soname,libredis-similarity.so -o libredis-similarity.so CMakeFiles/redis-similarity.dir/remros.c.o  libmros.a 
